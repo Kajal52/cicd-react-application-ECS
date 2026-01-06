@@ -40,6 +40,6 @@ jobs:
         uses: aws-actions/amazon-ecs-deploy-task-definition@v2
         with:
           task-definition: ecs-task.json
-          service: my-ecs-service
+          service: react-task-service
           cluster: react-cluster
           wait-for-service-stability: true
