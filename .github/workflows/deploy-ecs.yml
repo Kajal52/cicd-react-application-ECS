@@ -41,5 +41,5 @@ jobs:
         with:
           task-definition: ecs-task.json
           service: my-ecs-service
-          cluster: my-ecs-cluster
+          cluster: react-cluster
           wait-for-service-stability: true
